@@ -1,5 +1,4 @@
-# HFPMVS
-# ClipGStream (CVPR 2026)
+# HFP-MVS (ACM MM 2024)
 ### [Project page](https://github.com/liangjie1999/HFP-MVS) | [Paper](https://dl.acm.org/doi/epdf/10.1145/3664647.3680787) | [Long 360](https://huggingface.co/datasets/BestWJH/VRU_Basketball/tree/main) | [VRU Dataset](https://huggingface.co/datasets/BestWJH/VRU_Basketball/tree/main)
 > **High Fidelity Aggregated Planar Prior Assisted PatchMatch
 Multi-View Stereo**,            
