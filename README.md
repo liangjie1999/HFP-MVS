@@ -1,6 +1,19 @@
 # HFPMVS
+# ClipGStream (CVPR 2026)
+### [Project page](https://github.com/liangjie1999/HFP-MVS) | [Paper](https://dl.acm.org/doi/epdf/10.1145/3664647.3680787) | [Long 360](https://huggingface.co/datasets/BestWJH/VRU_Basketball/tree/main) | [VRU Dataset](https://huggingface.co/datasets/BestWJH/VRU_Basketball/tree/main)
+> **High Fidelity Aggregated Planar Prior Assisted PatchMatch
+Multi-View Stereo**,            
+> Jie Liang, Rongjie Wang, Rui Peng, Zhe Zhang, Kaiqiang Xiong, Ronggang Wang  
+> **Guangdong Provincial Key Laboratory of Ultra High Definition Immersive Media Technology,
+Shenzhen Graduate School, Peking University**  
+> **ACM MM 2024**
 
 Official CUDA implementation of **High Fidelity Aggregated Planar Prior Assisted PatchMatch Multi-View Stereo** (HFP-MVS / HFPMVS).
+
+![](./assets/teaser.png)
+
+![](./assets/pipeline.png)
+
 
 This repository extends the PatchMatch MVS pipeline with **segmentation-guided aggregated planar priors**: SAM-based region masks distinguish depth-continuous object interiors from boundaries, Delaunay triangulation fits **object planes** and **boundary planes**, and a multi-plane aggregated prior is embedded into GPU PatchMatch matching costs. The goal is sharper object boundaries and more complete reconstruction on weakly textured regions (ETH3D, Tanks & Temples).
 

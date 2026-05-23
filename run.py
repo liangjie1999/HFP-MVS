@@ -3,7 +3,7 @@ import shutil
 import subprocess
 
 
-items = os.listdir('/mvs_traditional/correct_data/')
+items = os.listdir('/media/yan1/liangjie/mvs_traditional/correct_data/')
 
 def build():
     os.system('rm -rf CMakeCache.txt')
