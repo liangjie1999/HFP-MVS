@@ -159,10 +159,22 @@ Depth/normal files use the **DMB** binary format (`readDepthDmb` / `writeDepthDm
 If you use this code, please cite our paper:
 
 ```bibtex
-@inproceedings{hfpmvs2024,
-  title={High Fidelity Aggregated Planar Prior Assisted PatchMatch Multi-View Stereo},
-  booktitle={ACM Multimedia},
-  year={2024}
+@inproceedings{10.1145/3664647.3680787,
+author = {Liang, Jie and Wang, Rongjie and Peng, Rui and Zhang, Zhe and Xiong, Kaiqiang and Wang, Ronggang},
+title = {High Fidelity Aggregated Planar Prior Assisted PatchMatch Multi-View Stereo},
+year = {2024},
+isbn = {9798400706868},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3664647.3680787},
+doi = {10.1145/3664647.3680787},
+abstract = {The quality of 3D models reconstructed by PatchMatch Multi-View Stereo remains a challenging problem due to unreliable photometric consistency in object boundaries and textureless areas. Since textureless areas usually exhibit strong planarity, previous methods used planar prior to improve the reconstruction performance. However, their planar prior ignores the depth discontinuity at the object boundary, making the boundary inaccurate (not sharp). In addition, due to the unreliable planar models in large-scale low-textured objects, the reconstruction results are incomplete. To address the above issues, we introduce the segmentation generated from Segment Anything Model into PatchMatch. Using segmentation to determine whether the depth is continuous based on the characteristics of segmentation and depth sharing boundaries. Then we construct Boundary Plane that fits the object boundary and Object Plane to increase consistency of planes in large-scale textureless objects. Finally, we use a probability graph model to calculate Aggregated Prior guided by Multiple Planes and embed it into the matching cost. The experimental results indicate that our method achieves SOTA in boundary sharpness on ETH3D and improves the completeness of weakly textured objects.},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {3141–3150},
+numpages = {10},
+keywords = {depth estimation, multi-view stereo, patchmatch},
+location = {Melbourne VIC, Australia},
+series = {MM '24}
 }
 ```
 
